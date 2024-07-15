@@ -11,7 +11,7 @@ import {
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { API_URL } from "../context/AuthContext";
-
+//This is home page
 const EmpPic = require("../assets/employeePic.png");
 const Home = () => {
   const [users, setUsers] = useState<any[]>([]);
